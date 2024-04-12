@@ -1,0 +1,6 @@
+locust==2.10.1
+matplotlib==3.7.0
+matplotlib-inline==0.1.6
+metrohash-python==1.1.3.3
+pandas==1.4.4
+Pillow==9.2.0

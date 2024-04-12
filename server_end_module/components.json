@@ -1,0 +1,24 @@
+[
+    {
+        "componentName":"outer-nginx",
+        "logPath":"/var/log/nginx/System-X.log",
+        "timeUnit":"s"
+    },
+    {
+        "componentName":"inner-nginx",
+        "logPath":"/home/System-X/logs/inner-nginx/access.log",
+        "timeUnit":"s"
+    },
+    {
+        "componentName":"uwsgi",
+        "logPath":"/home/System-X/logs/uwsgi/uwsgi-daemonize.log",
+        "timeUnit":"ms"
+    },
+    {
+        "componentName":"django",
+        "logPath":"/home/System-X/django.log",
+        "timeUnit":"ms"
+    }
+
+]
+

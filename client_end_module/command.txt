@@ -1,0 +1,1 @@
+docker run --rm -p 5500:5500 -v $(pwd):/app client_end_demo_image python3 client_end_module.py -l 50 -u 60 -s 10 -t 30
